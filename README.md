@@ -8,7 +8,7 @@ CounterV2 is a counter application built using the MVI/MVVM architecture with re
 - **Reset Counter**: Reset the count to `0` with the reset button.
 - **Auto Increment**: Automatically increase the count by `1` every `1.1` seconds when enabled.
 - **Count Boundaries**: The count never goes below `0` or above `98`.
-- **Reactive Programming**: Utilizes reactive patterns (e.g., RxJava, RxKotlin, or LiveData) to handle user and system intents.
+- **Reactive Programming**: Utilizes reactive patterns (e.g., React-Rx) to handle user and system intents.
 - **Platform-Specific UI**: The UI is designed to be platform-dependent, ensuring a native look and feel.
 
 ## Architecture

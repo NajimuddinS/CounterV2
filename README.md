@@ -18,7 +18,7 @@ The app follows the **MVI (Model-View-Intent)** or **MVVM (Model-View-ViewModel)
 - **Model**: Represents the state of the counter and business logic.
 - **View**: Displays the UI and captures user intents (e.g., button clicks).
 - **ViewModel/Intent**: Handles user actions, processes logic, and updates the state.
-- **Reactive Framework**: Uses RxJava, RxKotlin, or LiveData to manage data streams and state updates.
+- **Reactive Framework**: Uses Rx to manage data streams and state updates.
 
 ## Use Cases
 

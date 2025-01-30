@@ -37,10 +37,10 @@ const CounterView = () => {
         <button className="add-button" onClick={increment}>
           <FaPlus />
         </button>
-        <button className="reset-button" onClick={decrement}>
+        <button className="reset-button" onClick={reset}>
           <TfiReload />
         </button>
-        <button className="dec-button" onClick={reset}>
+        <button className="dec-button" onClick={decrement}>
           <FaMinus />
         </button>
         <br />

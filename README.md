@@ -78,7 +78,7 @@ Use the appropriate IDE to build and run the app:
 ### Code Structure
 The project is organized as follows:
 
-```bash
+```
 CounterV2/
 │    src/
 |    ├── assets/
@@ -94,3 +94,27 @@ CounterV2/
 └── README.md              # Project documentation
 
 ```
+## Screenshots
+
+Below are some screenshots of the app's UI at various stages:
+
+1. **Main Screen**  
+   The initial view with the count display, and buttons for `+`, `-`, `Reset`, and the Auto Increment toggle.
+   
+   ![Main Screen](src/assets/ScreenshotHome.png)
+
+2. **Auto Increment Active**  
+   The screen with auto-increment enabled, showing the count increasing automatically.
+
+   ![Auto Increment Active](src/assets/ScreenshotAuto.png)
+
+3. **Count Reset**  
+   After pressing the `Reset` button, the count is reset to 0.
+
+   ![Count Reset](src/assets/ScreenshotReset.png)
+
+4. **Count Limit Reached**  
+   The screen where the count has reached the upper limit (98) and no further increments are allowed.
+
+   ![Count Limit Reached](src/assets/ScreenshotLimit.png)
+
